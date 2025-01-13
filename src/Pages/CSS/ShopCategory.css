@@ -1,0 +1,113 @@
+.shop-categorys-right img{
+  width:300px
+
+
+}
+.shopcategory-banner{
+  display: block;
+  margin: 30px auto;
+  width: 82%;
+}
+
+.shop-categorys-right{
+  flex:1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+.shop-categorys{
+  width:65%;
+  height: 60vh;
+  display: flex;
+  margin: auto;
+  padding:0px  140px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  background: linear-gradient(180deg,pink,white);
+  
+}
+.shop-categorys-left{
+  flex:1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.shop-categorys-left h1{
+  color: rgb(20, 19, 19);
+  font-size: 80px;
+  font-weight: 600;
+}
+.shop-categorys-left h4{
+  color: black;
+  font-size: 22px;
+  font-weight: 600;
+}
+.shop-categorys-left button{
+  width: 282px;
+  height: 70px;
+  border-radius: 35px;
+  background: red;
+  border: none;
+  color: antiquewhite;
+  font-size: 22px;
+  font-weight: 500;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.shop-categorys-right{
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-top: 50px;
+}
+.shopcategory-indexSort{
+  display: flex;
+  margin: 0px 170px;
+  justify-content:space-between ;
+  align-items:center ;
+}
+.shopcategory-sort{
+  padding: 10px 20px;
+  border-radius: 40px;
+  border: 1px solid #888;
+
+}
+.shopcategory-sort img{
+  width:20px;
+}
+.shopcategory-indexSort p span{
+  font-weight: 600;
+}
+.shopcategory-products{
+  margin: 20px 170px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 80px;
+  
+}
+
+.shopcategory-products img{
+  width:250px;
+  height:350px;
+  object-fit: cover;
+  
+  align-items: center;
+  transition: transform 0.3s ease;  } .shopcategory-products img:hover 
+  { transform: scale(1.1);
+}
+.shopcategory-loadmore{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 150px auto;
+  width: 233px;
+  height: 69px;
+  border-radius: 75px;
+  background: #ededed;
+  color:#787878 ;
+  font-size: 18px;
+  font-weight: 500;
+}
